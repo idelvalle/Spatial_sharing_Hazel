@@ -1,0 +1,770 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "encoding-type": "anndata",
+            "encoding-version": "0.1.0"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "X/.zarray": {
+            "chunks": [
+                2644,
+                10
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644,
+                15755
+            ],
+            "zarr_format": 2
+        },
+        "X/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "layers/.zattrs": {
+            "encoding-type": "dict",
+            "encoding-version": "0.1.0"
+        },
+        "layers/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/.zattrs": {
+            "_index": "_index",
+            "column-order": [
+                "Cluster",
+                "Leiden_r01",
+                "Leiden_r02",
+                "Leiden_r03",
+                "Leiden_r04",
+                "Leiden_r05",
+                "Leiden_r06",
+                "Leiden_r08",
+                "Leiden_r10"
+            ],
+            "encoding-type": "dataframe",
+            "encoding-version": "0.2.0"
+        },
+        "obs/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Cluster/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Cluster/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Cluster/categories/.zarray": {
+            "chunks": [
+                7
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                7
+            ],
+            "zarr_format": 2
+        },
+        "obs/Cluster/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Cluster/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Cluster/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r01/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r01/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r01/categories/.zarray": {
+            "chunks": [
+                5
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                5
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r01/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r01/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r01/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r02/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r02/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r02/categories/.zarray": {
+            "chunks": [
+                7
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                7
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r02/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r02/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r02/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r03/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r03/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r03/categories/.zarray": {
+            "chunks": [
+                10
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                10
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r03/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r03/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r03/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r04/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r04/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r04/categories/.zarray": {
+            "chunks": [
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                13
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r04/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r04/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r04/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r05/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r05/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r05/categories/.zarray": {
+            "chunks": [
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                13
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r05/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r05/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r05/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r06/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r06/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r06/categories/.zarray": {
+            "chunks": [
+                16
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                16
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r06/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r06/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r06/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r08/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r08/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r08/categories/.zarray": {
+            "chunks": [
+                18
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                18
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r08/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r08/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r08/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r10/.zattrs": {
+            "encoding-type": "categorical",
+            "encoding-version": "0.2.0",
+            "ordered": false
+        },
+        "obs/Leiden_r10/.zgroup": {
+            "zarr_format": 2
+        },
+        "obs/Leiden_r10/categories/.zarray": {
+            "chunks": [
+                20
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                20
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r10/categories/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/Leiden_r10/codes/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|i1",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/Leiden_r10/codes/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obs/_index/.zarray": {
+            "chunks": [
+                2644
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                2644
+            ],
+            "zarr_format": 2
+        },
+        "obs/_index/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "obsm/.zattrs": {
+            "encoding-type": "dict",
+            "encoding-version": "0.1.0"
+        },
+        "obsm/.zgroup": {
+            "zarr_format": 2
+        },
+        "obsm/X_spatial/.zarray": {
+            "chunks": [
+                2644,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "obsm/X_spatial/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obsm/X_umap/.zarray": {
+            "chunks": [
+                2644,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2644,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "obsm/X_umap/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
+        "obsp/.zattrs": {
+            "encoding-type": "dict",
+            "encoding-version": "0.1.0"
+        },
+        "obsp/.zgroup": {
+            "zarr_format": 2
+        },
+        "raw/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<f8",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "raw/.zattrs": {
+            "encoding-type": "null",
+            "encoding-version": "0.1.0"
+        },
+        "uns/.zattrs": {
+            "encoding-type": "dict",
+            "encoding-version": "0.1.0"
+        },
+        "uns/.zgroup": {
+            "zarr_format": 2
+        },
+        "var/.zattrs": {
+            "_index": "_index",
+            "column-order": [],
+            "encoding-type": "dataframe",
+            "encoding-version": "0.2.0"
+        },
+        "var/.zgroup": {
+            "zarr_format": 2
+        },
+        "var/_index/.zarray": {
+            "chunks": [
+                15755
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|O",
+            "fill_value": 0,
+            "filters": [
+                {
+                    "id": "vlen-utf8"
+                }
+            ],
+            "order": "C",
+            "shape": [
+                15755
+            ],
+            "zarr_format": 2
+        },
+        "var/_index/.zattrs": {
+            "encoding-type": "string-array",
+            "encoding-version": "0.2.0"
+        },
+        "varm/.zattrs": {
+            "encoding-type": "dict",
+            "encoding-version": "0.1.0"
+        },
+        "varm/.zgroup": {
+            "zarr_format": 2
+        },
+        "varp/.zattrs": {
+            "encoding-type": "dict",
+            "encoding-version": "0.1.0"
+        },
+        "varp/.zgroup": {
+            "zarr_format": 2
+        }
+    },
+    "zarr_consolidated_format": 1
+}

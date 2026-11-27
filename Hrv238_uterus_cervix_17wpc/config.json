@@ -1,0 +1,161 @@
+{
+  "version": "1.0.17",
+  "name": "Hrv238_uterus_cervix_17wpc",
+  "description": "",
+  "datasets": [
+    {
+      "uid": "A",
+      "name": "Hrv238_uterus_cervix_17wpc",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv238_uterus_cervix_17wpc/A/0/e3d3230d-1bd6-4b21-9620-80f75528442e.adata.zarr",
+          "options": {
+            "obsSpots": {
+              "path": "obsm/X_spatial"
+            },
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Cluster",
+                "path": "obs/Cluster"
+              },
+              {
+                "name": "Leiden_r01",
+                "path": "obs/Leiden_r01"
+              },
+              {
+                "name": "Leiden_r02",
+                "path": "obs/Leiden_r02"
+              },
+              {
+                "name": "Leiden_r03",
+                "path": "obs/Leiden_r03"
+              },
+              {
+                "name": "Leiden_r04",
+                "path": "obs/Leiden_r04"
+              },
+              {
+                "name": "Leiden_r05",
+                "path": "obs/Leiden_r05"
+              },
+              {
+                "name": "Leiden_r06",
+                "path": "obs/Leiden_r06"
+              },
+              {
+                "name": "Leiden_r08",
+                "path": "obs/Leiden_r08"
+              },
+              {
+                "name": "Leiden_r10",
+                "path": "obs/Leiden_r10"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X"
+            }
+          },
+          "coordinationValues": {
+            "obsType": "spot"
+          }
+        },
+        {
+          "fileType": "image.ome-zarr",
+          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv238_uterus_cervix_17wpc/A/1/60336a97-1ea9-4217-b2a7-989583b4899e.ome.zarr"
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "A"
+    },
+    "embeddingType": {
+      "A": "UMAP"
+    },
+    "obsType": {
+      "A": "spot"
+    }
+  },
+  "layout": [
+    {
+      "component": "spatialBeta",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsType": "A"
+      },
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "component": "layerControllerBeta",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsType": "A"
+      },
+      "x": 6,
+      "y": 0,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsType": "A"
+      },
+      "x": 0,
+      "y": 6,
+      "w": 3,
+      "h": 6
+    },
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsType": "A"
+      },
+      "x": 3,
+      "y": 6,
+      "w": 3,
+      "h": 6
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsType": "A"
+      },
+      "x": 6,
+      "y": 3,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsType": "A"
+      },
+      "x": 6,
+      "y": 6,
+      "w": 6,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

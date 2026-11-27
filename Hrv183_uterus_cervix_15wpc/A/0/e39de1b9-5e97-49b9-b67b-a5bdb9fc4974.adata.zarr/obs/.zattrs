@@ -1,0 +1,16 @@
+{
+    "_index": "_index",
+    "column-order": [
+        "Cluster",
+        "Leiden_r01",
+        "Leiden_r02",
+        "Leiden_r03",
+        "Leiden_r04",
+        "Leiden_r05",
+        "Leiden_r06",
+        "Leiden_r08",
+        "Leiden_r10"
+    ],
+    "encoding-type": "dataframe",
+    "encoding-version": "0.2.0"
+}
