@@ -9,7 +9,7 @@
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv238_vagina_17wpc/A/0/e2785982-23b3-4cf8-a544-a7dbca385022.adata.zarr",
+          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv238_vagina_17wpc/A/0/10de80ef-0be8-4ed6-aa14-58809ecaba4b.adata.zarr",
           "options": {
             "obsSpots": {
               "path": "obsm/X_spatial"
@@ -72,7 +72,7 @@
         },
         {
           "fileType": "image.ome-zarr",
-          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv238_vagina_17wpc/A/1/9f1fdf56-2623-4fae-b619-39b19e4d5b38.ome.zarr"
+          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv238_vagina_17wpc/A/1/1e003276-e75e-4f87-a05d-a0e0044997ce.ome.zarr"
         }
       ]
     }
