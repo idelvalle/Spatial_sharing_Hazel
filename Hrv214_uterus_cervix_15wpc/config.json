@@ -9,7 +9,7 @@
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv214_uterus_cervix_15wpc/A/0/1d0397af-4aa8-4134-9675-773e41a36422.adata.zarr",
+          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv214_uterus_cervix_15wpc/A/0/a2eabe90-1711-43d1-936a-b812d640ed41.adata.zarr",
           "options": {
             "obsSpots": {
               "path": "obsm/X_spatial"
@@ -72,7 +72,7 @@
         },
         {
           "fileType": "image.ome-zarr",
-          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv214_uterus_cervix_15wpc/A/1/53612d4b-3821-491d-acd8-ff3f010bc129.ome.zarr"
+          "url": "https://idelvalle.github.io/Spatial_sharing_Hazel/Hrv214_uterus_cervix_15wpc/A/1/31a954d7-798d-42c1-812c-92f7b476b41d.ome.zarr"
         }
       ]
     }
